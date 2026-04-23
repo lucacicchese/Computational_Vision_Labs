@@ -1,0 +1,20 @@
+Installazione optical flow
+
+
+
+# 1. Crea l'ambiente virtuale 
+python -m venv CV_lezione
+
+# 2. Attiva l'ambiente
+source CV_lezione/bin/activate
+
+# 4. Installa i pacchetti
+pip install numpy opencv-python torch matplotlib jupyterlab
+
+# 5. Scarica il dataset MPI-Sintel
+wget http://files.is.tue.mpg.de/sintel/MPI-Sintel-complete.zip
+unzip MPI-Sintel-complete.zip -d MPI-Sintel
+
+# 6. Esegui lo script per calcolare l'optical flow
+jupyter lab
+python optical_flow.py 

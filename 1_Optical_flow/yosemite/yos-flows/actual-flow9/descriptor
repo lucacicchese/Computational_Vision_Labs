@@ -1,0 +1,8 @@
+(_data_files 2)
+(_data_sets 1)
+(_channels 1)
+(_dimensions 252 316)
+(_data_type "unsigned_1")
+(scale 0.030901117885813994)
+(pedestal -3.907224655151367)
+(class image-pair)

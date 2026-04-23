@@ -30,7 +30,7 @@ python -m venv CV_labs
 CV_labs\Scripts\activate
 ```
 
-#### 🪟 Windows (Command Prompt)
+#### 🪟 Windows (PowerShell)
 ```bash
 python -m venv CV_labs
 CV_labs\Scripts\Activate.ps1
